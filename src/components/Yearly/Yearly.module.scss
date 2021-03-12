@@ -1,0 +1,41 @@
+@import "../../variables.scss";
+
+.cardBack {
+  padding: $base-spacing * 4;
+  position: relative;
+
+  img {
+    height: 60%;
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+  }
+
+  h2,
+  h3 {
+    color: $primary-color;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    text-overflow: ellipsis;
+    max-width: 90%;
+    margin-bottom: $base-spacing * 2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  h3 {
+    font-size: .9rem;
+  }
+
+  .list {
+    height: 100px;
+  }
+
+  p {
+    text-align: justify;
+    color: $secondary-text;
+    margin-bottom: $base-spacing * 2;
+  }
+}

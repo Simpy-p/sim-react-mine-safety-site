@@ -1,0 +1,33 @@
+.cardBack {
+  padding: 20px;
+  position: relative;
+}
+.cardBack img {
+  height: 60%;
+  width: 100%;
+  border-radius: 2px 2px 0 0;
+}
+.cardBack h2,
+.cardBack h3 {
+  color: #43287a;
+}
+.cardBack h2 {
+  font-size: 1.3rem;
+  text-overflow: ellipsis;
+  max-width: 90%;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cardBack h3 {
+  font-size: 0.9rem;
+}
+.cardBack .list {
+  height: 100px;
+}
+.cardBack p {
+  text-align: justify;
+  color: gray;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,26 @@
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: 0;
+  opacity: 90%;
+}
+footer div {
+  text-decoration: none;
+  color: #43287a;
+  font-size: large;
+}
+footer .container {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  flooter {
+    position: 0;
+  }
+}

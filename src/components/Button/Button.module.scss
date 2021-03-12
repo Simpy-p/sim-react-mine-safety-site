@@ -1,0 +1,19 @@
+@import "../../variables.scss";
+.bt{
+  height: 40px;
+  width: 100px;
+  background-color: yellow;
+  margin: auto;
+  border-bottom: $primary-border;
+  color:$primary-border;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5px; 
+  
+}
+
+@media screen and (max-width: 700px) {
+  .bt{
+  height: 40px;
+  width: 70px;
+  }
+}

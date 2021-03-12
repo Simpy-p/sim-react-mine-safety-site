@@ -1,0 +1,48 @@
+button {
+  height: 20px;
+  width: 80px;
+  background-color: yellow;
+  margin: auto;
+  padding: 5px;
+  border-bottom: solid 2px #43287a;
+  color: solid 2px #43287a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.navFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #43287a;
+  font-size: small;
+  padding: 50px;
+  margin: Auto;
+}
+
+.fi {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  padding: 5px;
+  padding: 0 20px;
+  border-bottom: solid 2px #43287a;
+  color: solid 2px #43287a;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  .navFlex {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .fi {
+    width: 200px;
+  }
+}

@@ -1,0 +1,30 @@
+@import "./variables.scss";
+footer{
+  height: 150px;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // position:fixed;
+  position: floor($number: 0);
+  opacity: 90%;
+  
+   div{
+    text-decoration: none;
+    color: $primary-color;
+    font-size: large;
+   }
+   .container{
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+} 
+  @media screen and (max-width: 700px) {
+   flooter{
+    position: floor($number: 0);
+   }
+  }
+
+  

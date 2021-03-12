@@ -1,0 +1,89 @@
+nav {
+  height: 60px;
+  max-width: 100vw;
+  background-color: white;
+  padding: 0 20px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  margin: Auto;
+}
+nav a {
+  color: #43287a;
+}
+nav a:visited {
+  color: #43287a;
+}
+nav div img {
+  margin-right: 10px;
+  height: 50px;
+}
+nav div.searchPanel {
+  font-size: 1.5em;
+  display: flex;
+}
+nav div.searchPanel .faStyles {
+  margin-left: 20px;
+}
+nav div.searchPanel .faStyles:hover {
+  cursor: pointer;
+  color: #ec4566;
+}
+nav div.searchPanel .faStylesDisabled {
+  margin-left: 20px;
+  color: gray;
+}
+
+.navFlex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  color: #43287a;
+  font-size: small;
+  padding: 5px;
+}
+
+.navOptionFlex {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin-left: auto;
+}
+
+.navHeaderFlex {
+  color: red;
+  font-size: large;
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    height: 200px;
+    display: block;
+  }
+  nav .navFlex {
+    display: block;
+  }
+  nav .navHeaderFlex {
+    display: block;
+  }
+  nav .navOptionFlex {
+    display: flex;
+    align-content: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
