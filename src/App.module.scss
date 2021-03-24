@@ -1,16 +1,17 @@
 @import "./variables.scss";
-footer{
+.footer{
   height: 150px;
   width: 100%;
   background-color: yellow;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
   // position:fixed;
   position: floor($number: 0);
-  opacity: 90%;
+  // opacity: 90%;
   
    div{
+
     text-decoration: none;
     color: $primary-color;
     font-size: large;

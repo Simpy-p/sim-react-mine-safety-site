@@ -25,7 +25,8 @@ const App = () => {
         <Routes />
       </section>
       <section className={styles.container}>
-      <footer ><div>Daily Quotes: {kanyeQuote.quote}</div></footer>
+      <footer > </footer>
+      <div className={styles.footer}>Daily Quotes: {kanyeQuote.quote}</div>
       </section>
     </>
     </div>
